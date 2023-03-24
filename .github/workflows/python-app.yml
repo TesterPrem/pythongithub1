@@ -32,7 +32,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container: node:18.15.0
+    container: node:19-alpine3.16
 
     steps:
     - uses: actions/checkout@v3
